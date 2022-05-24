@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sass --style expanded --source-map --embed-sources --no-error-css scss/:css/"
+    "build": "sass --style expanded --source-map --embed-sources --no-error-css scss/:css/",
+    "serve": "serve"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.51.0"
+    "sass": "^1.51.0",
+    "serve": "^13.0.2"
   }
 }
