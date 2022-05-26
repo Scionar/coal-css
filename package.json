@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sass --style expanded --source-map --embed-sources --no-error-css scss/:css/",
+    "build:sass": "sass --style expanded --source-map --embed-sources --no-error-css scss/:css/",
+    "watch:sass": "nodemon --watch scss/ --ext scss --exec 'npm run build:sass'",
+
+    "watch": "npm run watch:sass",
     "serve": "serve"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^2.0.16",
     "sass": "^1.51.0",
     "serve": "^13.0.2"
   }
