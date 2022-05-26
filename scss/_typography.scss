@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Barlow Condensed;
+    src: url("/fonts/barlowcondensed-bold.woff2") format("woff2"),
+         url("/fonts/barlowcondensed-bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+html {
+    font-size: 62.5%; /* Set font size to 10px, when using rem */
+}
+
+body {
+    color: var(--foreground-color);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2rem; /* Use 16px font size, as a base font size */
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Barlow Condensed,Helvetica,sans-serif;
+    font-size: 7rem;
+}
