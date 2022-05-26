@@ -1,8 +1,10 @@
 {
   "name": "coal-css",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minimal CSS Framework for semantic HTML",
+  "author": "Joona Viertola",
+  "license": "MIT",
+  "main": "css/coal.css",
   "scripts": {
     "build:sass": "sass --style expanded --source-map --embed-sources --no-error-css scss/:css/",
     "watch:sass": "nodemon --watch scss/ --ext scss --exec 'npm run build:sass'",
@@ -10,8 +12,6 @@
     "watch": "npm run watch:sass",
     "serve": "serve"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.16",
     "sass": "^1.51.0",
